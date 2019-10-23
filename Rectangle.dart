@@ -1,0 +1,21 @@
+import 'dart:math';
+
+class Rectangle
+{
+  int width;
+  int height;
+  Point origin;
+
+  Rectangle({this.origin = const Point(0, 0),this.width =0,this.height=0});
+
+  @override
+  String toString() => "Origin: (${origin.x}, ${origin.y}), width: $width, height: $height";
+}
+
+void main()
+{
+  var rect = Rectangle(origin: const Point(10,10), width: 20, height: 30);
+  print(Rectangle(width: 200));
+  print(Rectangle());
+  print(rect);
+}
