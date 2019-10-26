@@ -1,4 +1,4 @@
-package com.example.startup_name
+package com.example.baby_names
 
 import android.os.Bundle
 
